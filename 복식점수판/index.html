@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>복식 탁구 점수판</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scoreboard">
+      <div class="header">
+        <h1>Room No. <span id="roomNo">1</span></h1>
+      </div>
+      <div class="players">
+        <div class="player" id="player1Box">
+          <span id="player1">Player1</span>
+        </div>
+        <div class="player" id="player3Box">
+          <span id="player3">Player3</span>
+        </div>
+      </div>
+      <div class="players">
+        <div class="player" id="player2Box">
+          <span id="player2">Player2</span>
+        </div>
+        <div class="player" id="player4Box">
+          <span id="player4">Player4</span>
+        </div>
+      </div>
+      <div class="score">
+        <div class="score-box" id="scoreBox1">
+          <button class="score-display" id="score1">0</button>
+        </div>
+        <span>VS</span>
+        <div class="score-box" id="scoreBox2">
+          <button class="score-display" id="score2">0</button>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="action-btn" id="resetButton">리셋</button>
+        <button class="action-btn" id="saveButton">저장</button>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

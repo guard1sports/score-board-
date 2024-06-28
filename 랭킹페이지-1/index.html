@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>랭킹 페이지</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ranking-container">
+      <h1>랭킹</h1>
+      <div class="filters">
+        <label for="rankFilter">부수:</label>
+        <select id="rankFilter">
+          <option value="all">All</option>
+          <option value="선수부">선수부</option>
+          <option value="1부">1부</option>
+          <option value="2부">2부</option>
+          <option value="3부">3부</option>
+          <option value="4부">4부</option>
+          <option value="5부">5부</option>
+          <option value="6부">6부</option>
+          <option value="7부">7부</option>
+          <option value="8부">8부</option>
+          <option value="9부">9부</option>
+          <option value="10부">10부</option>
+          <option value="11부">11부</option>
+        </select>
+        <label for="regionFilter">지역:</label>
+        <select id="regionFilter">
+          <option value="all">All</option>
+          <option value="서울특별시">서울특별시</option>
+          <option value="부산광역시">부산광역시</option>
+          <option value="대구광역시">대구광역시</option>
+          <option value="인천광역시">인천광역시</option>
+          <option value="광주광역시">광주광역시</option>
+          <option value="대전광역시">대전광역시</option>
+          <option value="울산광역시">울산광역시</option>
+          <option value="세종특별자치시">세종특별자치시</option>
+          <option value="경기도">경기도</option>
+          <option value="강원도">강원도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="제주특별자치도">제주특별자치도</option>
+        </select>
+        <label for="friendSearch">친구 찾기:</label>
+        <input type="text" id="friendSearch" placeholder="닉네임 또는 이름 검색" />
+        <button id="friendSearchBtn">검색</button>
+      </div>
+      <table id="rankingTable">
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>플레이어</th>
+            <th>점수</th>
+            <th>부수</th>
+            <th>지역</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 랭킹 데이터가 여기 추가됩니다 -->
+        </tbody>
+      </table>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

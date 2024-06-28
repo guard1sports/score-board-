@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefffe;
+    background-image: url('table_tennis.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(73, 219, 183, 0.8);
+    border-radius: 100px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='tel'],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type='submit'] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  input[type='radio'] {
+    margin-right: 10px;
+  }
+  

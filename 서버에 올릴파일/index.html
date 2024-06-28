@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 애플리케이션</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- 회원가입 페이지 -->
+    <div id="signup-page" class="page">
+        <h1>회원가입</h1>
+        <form id="signup-form">
+            <input type="text" placeholder="사용자 이름" required><br>
+            <input type="password" placeholder="비밀번호" required><br>
+            <button type="submit">로그인</button>
+        </form>
+    </div>
+
+    <!-- 방만들기 페이지 -->
+    <div id="room-creation-page" class="page hidden">
+        <div class="title">
+            경기를 마치고 꼭 점수를 입력 해 주세요. 기록이 저장되지 않으면 랭킹을 올릴수 없어요.
+        </div>
+        <div class="subtitle">
+            랭킹을 올리고 건강도 올리고 선물을 받고 기쁨도 올리고
+        </div>
+        <button id="create-room-button">방만들기</button>
+        <button id="view-ranking-button">랭킹순위보기</button>
+    </div>
+
+    <!-- 방입장 페이지 -->
+    <div id="room-entry-page" class="page hidden">
+        <h1>방입장 페이지</h1>
+    </div>
+
+    <!-- 랭킹 페이지-1 -->
+    <div id="ranking-page" class="page hidden">
+        <h1>랭킹 페이지-1</h1>
+        <button id="exit-button">나가기</button>
+    </div>
+</body>
+</html>
